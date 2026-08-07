@@ -1,0 +1,13 @@
+.local/
+.project/
+.settings/
+.tmh/
+
+TestResults/
+Screenshots/
+Logs/
+
+*.tmp
+*.cache
+*.user
+*.suo

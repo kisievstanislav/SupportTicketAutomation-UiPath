@@ -1,0 +1,6 @@
+{
+  "Name": "SupportTicketAutomation",
+  "ProjectType": "Process",
+  "Description": "UiPath implementation of the Hybrid AI Automation Agent support-ticket workflow.",
+  "MainFile": "Main.xaml"
+}
