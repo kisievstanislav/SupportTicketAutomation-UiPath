@@ -11,3 +11,7 @@ Logs/
 *.cache
 *.user
 *.suo
+# UiPath local/generated files
+.objects/
+.screenshots/
+.storage/

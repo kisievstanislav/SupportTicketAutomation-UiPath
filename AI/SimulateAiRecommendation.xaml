@@ -81,7 +81,7 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="SimulateAiRecommendation" sap:VirtualizedContainerService.HintSize="884,714" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="SimulateAiRecommendation" sap:VirtualizedContainerService.HintSize="1040,714" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -130,7 +130,9 @@
         </OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="x:Double">0.94</InArgument>
+        <InArgument x:TypeArguments="x:Double">
+          <CSharpValue x:TypeArguments="x:Double" sap2010:WorkflowViewState.IdRef="CSharpValue`1_16">0.94</CSharpValue>
+        </InArgument>
       </Assign.Value>
     </Assign>
   </Sequence>
